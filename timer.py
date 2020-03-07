@@ -1,7 +1,8 @@
+#!/usr/bin/env python3
 import time
 
 while True:
-	uin = input(">> ")
+	uin = input("timer >> ")
 	try:
 		when_to_stop = abs(int(uin))
 	except KeyboardInterrupt:
